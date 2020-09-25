@@ -1,0 +1,20 @@
+{
+  "name": "stock-scraping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin":"index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sidramesh",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "csvtojson": "^2.0.10",
+    "nodemailer": "^6.4.11",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "twilio": "^3.49.1"
+  }
+}
